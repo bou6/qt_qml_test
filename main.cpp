@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
 
     Service passport("Passport", 10);
-    Service driverLicense("Driver License", 25);
+    Service driverLicense("DriverLicense", 25);
     
     // Expose both objects with different names
     engine.rootContext()->setContextProperty("passport", &passport);

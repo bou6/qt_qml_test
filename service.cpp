@@ -12,9 +12,9 @@ Service::Service(QObject *parent)
 Service::Service(QString name, int number):
     m_service_name(name),
     m_service_number(number),
-    m_mqtt_username("xxxxx"),
-    m_mqtt_password("xxxxxx"),
-    m_hostname("xxxxxxx"),
+    m_mqtt_username("Achbou6"),
+    m_mqtt_password("AchMqt26081991@"),
+    m_hostname("2c45a082862d4b60b6dd63904ff8c728.s1.eu.hivemq.cloud"),
     m_useSSL(true)
 {
     // setup Mqtt client

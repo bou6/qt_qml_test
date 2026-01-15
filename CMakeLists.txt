@@ -20,6 +20,8 @@ qt_add_qml_module(appqmlTest3
     QML_FILES
         Main.qml
         SOURCES service.h service.cpp
+        QML_FILES HomePage.qml
+        QML_FILES ServicesPage.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -5,6 +5,10 @@ Item {
     property var serviceId
     signal backClicked()
 
+    property int serviceRectangleWidth: 600
+    property int numberRectanglrWidth: 400
+    property int rectangleHeight:100
+
     Text {
         id: serviceIdDisplay
         text: "Service ID: " + (serviceId || "N/A")

@@ -7,10 +7,6 @@ Window {
     visible: true
     title: qsTr("services")
 
-    property int serviceRectangleWidth: 400
-    property int numberRectanglrWidth: 100
-    property int rectangleHeight:50
-
     StackView {
           id: stack
           anchors.fill: parent
